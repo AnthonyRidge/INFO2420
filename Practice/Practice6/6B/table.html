@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<meta charset="UTF-8">
+	
+<title>HTML Practice 6 - Tables</title>
+
+<style type="text/css">
+.center {text-align:center;
+	margin: 0 auto;
+	width: 90%;
+}
+table, th, td { border: 5px solid black;
+				border-collapse: separate;
+				border-spacing: 10px;
+				padding: 8px;
+				border-radius: 10px;
+				}
+Caption			{font-family: Gothic;
+				color:#1d2f20
+				font-weight:Bold;
+				background-color:#D7E7D0;
+				border-radius:10px;
+				border:2px solid #1d2f20
+				height:40px;
+				text-align:center;
+				font-size:40px;
+				}
+.courses		{background-color: #CCC;
+				 width: 25%
+
+				}
+th.days			{background-color: #99FF66;
+				 width: 15%;
+				}
+td				{ color: #1d2f20;
+				 background-color:#ccffcc;
+				font-size: 20px;
+				}
+th				{ border:3pz solid #1d2f20;
+				 padding:5px;
+				border-radius 5px;
+				font-size:20px;
+				}
+@font-face{
+	font-family:'Gothic'
+	src: url('Fonts/LeagueGothic-Regular.eot');
+	src: local('Gothic),url(Fonts/LeagueGothic_semiCondensed-Regular.ttf') format('truetype');
+		  }
+
+</style>
+</head>
+<body>
+<div class="center" >
+   <table >
+   <caption>My Class Schedule</Caption>
+   <colgroup class = "courses"></colgroup>
+   <colgroup class= "days"></colgroup>
+	<tr>
+	<th>Courses</th>
+	<th class= "days">Monday</th>
+	<th class= "days">Tuesday</th>
+	<th class= "days">Wednsday</th>
+	<th class= "days">Thursday</th>
+	<th class= "days">Friday</th>
+	</tr>
+	
+	<tr>
+	<th>Info1120 </th>
+	<td>&nbsd;</td>
+	<td>9-11</td>
+	<td>&nbsd;</td>
+	<td>9-11</td>
+	<td rowspan="2">&nbsd;</td>
+	</tr>
+	<tr>
+	<th>Math 1010</th>
+	<td colspan="4">12-1</td>
+	</tr>
+	<tr>
+	<th>Math Info2420</th>
+	<td colspan="5">Online Avalible 24/7</td>
+	</tr>
+   </table>
+</div>
+
+
+
+</body>
+</html>
+
