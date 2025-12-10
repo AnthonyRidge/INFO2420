@@ -6,7 +6,7 @@ body  {
 		background-color: #3B47B5;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: medium;
-		color: #000;
+		color: #4D3200;
 }
 header {
 		width: 900px;
@@ -94,81 +94,4 @@ hr{
 	border-style: solid;
 	border-color: #FFD563;
 	border-width: 1px;
-}
-@font-face{
-	font-family:'Gothic'
-	src: url('Fonts/LeagueGothic-Regular.eot');
-	src: local('Gothic'),url('Fonts/LeagueGothic_SemiCondensed-Regular.ttf') format('truetype');
-	}
-
-.h1{
-	Color:#FFD3BA;
-	font-family:Gothic,Geneva,sans-serif;
-	text-align: center;
-}
-h3{ 
-	color: #FCFE39;
-	font-style: italic;
-}
-a:link { color: #FFC019;
-}
-a:visited{ color: #FCFF00;
-}
-a:hover{ color: #FF6C19;
-
-}
-.left{ float: left;
-		padding-right: 15px;
-		border: none;
-}
-.right{ float: right;
-		padding-left: 15px;
-		border: none;
-}
-.tributeshr { height: 2.5px;
-		border:0;
-		background-color: #001a00;
-}
-.tributesheader{ 
-	margin-top: 0;
-	padding: 3em 1em 2em 1em;
-	text-align: center;
-}
-.top-right{
-	position: absolute;
-	Top: 10px;
-	right: 150px;
-}
-table, th, td {
-border: 2px solid #001A00;
-border-collapse: separate;
-border-spacing: 7px;
-padding: 8px;
-border-radius: 6px;
-}
-
-caption {
-font-family: Gothic, Geneva, sans-serif;
-color: #001A00;
-font-weight: bold;
-background-color: #FFD3BA;
-border: 2px solid #001A00;
-border-radius: 10px;
-height: 40px;
-text-align: center;
-font-size: 32px;
-}
-
-th {
-background-color: #FFC019;
-color: #001A00;
-padding: 10px;
-font-size: 20px;
-}
-
-td {
-background-color: #FFFCF0;
-color: #001A00;
-font-size: 18px;
-text-align: center;
 }
